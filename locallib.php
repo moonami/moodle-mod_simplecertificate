@@ -2163,6 +2163,7 @@ class simplecertificate {
                             }
                             // Close the workbook
                             $workbook->close();
+                            die();
                         break;
                 
                         //txt
@@ -2205,6 +2206,7 @@ class simplecertificate {
                                     $row++;
                                 }
                             }
+                            die();
                         break;
                     }
                 break;
